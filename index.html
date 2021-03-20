@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Merupakan halaman website yang menampilkan Curriculum Vitae singkat dari Julyus Andreas">
-    <meta name="keywords" content="Curriculum Vitae dari Julyus Andreas">
+    <meta name="description" content="Merupakan mahasiswa Univeristas Katolik Parahyangan yang sedang menempuh jurusan Teknik Informatika yang
+    sangat
+    menyukai dunia teknologi. Memiliki ketertarikan yang tinggi dalam bidang Web Development Selain
+    mengikuti kegiatan di kuliah, Saya menyibukkan diri dengan mengikuti kelas online untuk melatih skill
+    seperti HTML5, CSS3, dan Javascript ES6 untuk menunjang kebutuhan di Industri 4.0">
+    <meta name="keywords" content="Curriculum Vitae singkat dari Julyus Andreas">
     <meta name="author" content="Julyus Andreas">
     <title>Julyus Andreas</title>
 
@@ -19,11 +22,8 @@
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,104 +32,57 @@
 </head>
 
 <body>
-    <ul class="nav">
-        <li><a href="#profile"><i style="font-size:24px" class="fa">&#xf2be;</i><br>Profil</a></li>
-        <li><a href="#biodata"><i style="font-size:24px" class="fa">&#xf2bb;</i><br>Biodata</a></li>
-        <li><a href="#motohidup"><i style="font-size:24px" class="fa">&#xf10d;</i><br>Motto</a></li>
-    </ul>
-    <section id="profile" class="text-center">
-        <figure>
-            <img src="profile.jpg" class="profile-picture" alt="Julyus Andreas" height="350px">
-        </figure>
+    <nav>
+        <ul class="nav">
+            <li><a href="#profile">Profil</a></li>
+            <li><a href="#biodata">Biodata</a></li>
+            <li><a href="#motohidup">Motto</a></li>
+        </ul>
+    </nav>
+    <div class="text-center">
         <h1 class="display-1 profile-name">Julyus Andreas</h1>
+        <figure>
+            <img src="profile.jpg" class="profile-picture" alt="Julyus Andreas">
+            <figcaption style="font-weight: 100; color: #adadad; font-size: small; font-style: italic;">Foto: Julyus Andreas
+            </figcaption>
+        </figure>
+    </div>
+    <section id="profile" class="text-center">
         <h2 class="display-3 section-name">Profile Singkat</h2>
         <div class="under-line"></div>
-        <blockquote>
-            Merupakan mahasiswa yang sedang menempuh jurusan <strong>Teknik Informatika</strong> yang sangat
-            menyukai
-            dunia teknologi. Memiliki ketertarikan yang tinggi dalam bidang Web Development <br> Selain mengikuti
-            kegiatan di kuliah, Saya menyibukkan diri dengan mengikuti kelas online
-            untuk melatih skill seperti HTML5, CSS3, dan Javascript ES6 untuk menunjang kebutuhan di Industri 4.0
-        </blockquote>
+        <article class="profil-singkat">
+            <p>Merupakan mahasiswa Universitas Katolik Parahyangan yang sedang menempuh jurusan Teknik Informatika yang sangat menyukai dunia teknologi. <b>Memiliki ketertarikan yang tinggi dalam bidang Web Development</b> terutama pada bagian front-end.
+                <br> Selain mengikuti kegiatan di kuliah, Saya menyibukkan diri dengan mengikuti kelas online untuk melatih skill seperti <code><abbr title="HyperText Markup Language">HTML5</abbr>, <abbr
+                        title="Cascading Style Sheets">CSS3</abbr>, dan JavaScript <abbr
+                        title="EcmaScriprt">ES6</abbr></code> untuk menunjang kebutuhan tenaga kerja di Industri 4.0.
+                <br> Diluar bidang akademik, saya juga <b>memiliki hobi bermain</b> <i>video games</i> seperti
+                <i>Valorant,
+                    Counter Strike: Global
+                    Offensive, dan Pro Evaluation Soccer 2019</i>
+            </p>
+        </article>
     </section>
-    <section id="biodata">
-        <h2 class="display-3 section-name text-center">Biodata</h2>
+    <section id="biodata" class="text-center">
+        <h2 class="display-3 section-name">Biodata</h2>
         <div class="under-line"></div>
-        <div class="biodata-card">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="border-right"><i class="material-icons" style="font-size:24px">contacts</i></td>
-                        <td class="text-bold caption-hide">Nama</td>
-                        <td>Julyus Andreas Binoto</td>
-                    </tr>
-                    <tr>
-                        <td class="border-right"><i style="font-size:24px" class="fa">&#xf274;</i></td>
-                        <td class="text-bold caption-hide">Tempat, Tanggal Lahir </td>
-                        <td>Jakarta, 1 Juli 2000</td>
-                    </tr>
-                    <tr>
-                        <td class="border-right"><i class="material-icons" style="font-size:24px">place</i></td>
-                        <td class="text-bold caption-hide">Alamat </td>
-                        <td>Jalan Prapanca 1 No.4, Jawa Barat</td>
-                    </tr>
-                    <tr>
-                        <td class="border-right"><i class="material-icons" style="font-size:24px">school</i></td>
-                        <td class="text-bold caption-hide">Universitas </td>
-                        <td>Universitas Katolik Parahyangan</td>
-                    </tr>
-                    <tr>
-                        <td class="border-right"><i class="material-icons" style="font-size:24px">laptop_mac</i></td>
-                        <td class="text-bold caption-hide">Jurusan </td>
-                        <td>Teknik Informatika</td>
-                    </tr>
-                    <tr>
-                        <td class="border-right"><i class="material-icons" style="font-size:24px">email</i></td>
-                        <td class="text-bold caption-hide">Email </td>
-                        <td>andreasjulyus@gmail.com</td>
-                    </tr>
-                </tbody>
-            </table>
+        <br><br>
+        <div class="text-center" style="color: #f4b41a; font-size: 1.3em; line-height: 2; width: 60%; margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;">
+            <p>Nama lengkap yang saya miliki adalah Julyus Andreas Binoto Manurung. Lahir di Jakarta pada tanggal 1 Juli 2000. Merupakan anak terakhir dari dua bersaudara. Status saat ini adalah sebagai mahasiswa semester 6 di Teknik Informatika
+                <abbr title="Universitas Katolik Parahyangan">Unpar</abbr> yang mengambil peminatan
+                <i>computing science</i>.
+            </p>
         </div>
     </section>
-    <section id="motohidup">
-        <h2 class="text-center display-2 section-name">Motto Hidup</h2>
+    <section id="motohidup" class="text-center">
+        <h2 class="display-3 section-name">Motto Hidup</h2>
         <div class="under-line"></div>
-        <div class="cards text-center">
-            <article>
-                <header>
-                    <h2>1</h2>
-                </header>
-
-                <div class="content">
-                    <p>Berpikirlah <i>out of the box</i> agar bisa menyelesaikan berbagai permasalahan dengan cara yang
-                        tidak biasa
-                    </p>
-                </div>
-
-            </article>
-
-            <article>
-                <header>
-                    <h2>2</h2>
-                </header>
-                <div class="content">
-                    <p>Berbuat baik kepada sesama bukan untuk menerima balasan, tetapi karena kita telah mendapatkan hal
-                        baik dari orang disekitar kita</p>
-                </div>
-            </article>
-
-            <article>
-                <header>
-                    <h2>3</h2>
-                </header>
-
-                <div class="content">
-                    <p>Semua impian kita akan menjadi kenyataan bila kita memiliki keberanian yang cukup untuk terus
-                        maju dan pantang menyerah.</p>
-                </div>
-
-            </article>
+        <blockquote class="motohidup">
+            <p>"Kita semua membutuhkan saat-saat sukar terjadi didalam kehidupan kita untuk meningkatkan ketergantungan kita kepada Allah dan belajar mengerti bahwa Anugerah dan belas kasihan-Nya adalah cukup"
+                <span>- Paul Washer</span>
+            </p>
+        </blockquote>
     </section>
     <footer class="site-footer">
         <div class="container">
@@ -151,7 +104,6 @@
 
         </div>
     </footer>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </body>
 
 </html>
